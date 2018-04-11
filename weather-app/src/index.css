@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("./images/background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#root{
+    height: 450px;
+    width: 850px;
+    margin-top: 85px;
+    margin-left: 209px;
+    background: #36688D;
+}
+.h1{
+	text-align: center;
+	color: #fffc12;
+	font-size: 55px;
+	font-variant: titling-caps;
+    padding-top: 15px;   
+}
+.p{
+	color: white;
+	font-size: 30px;
+    padding-left: 20px;
+}
+.city{
+	margin-left: 60px;
+	height: 20px;
+	border: 2px solid #424b41;
+}
+.country{
+   margin-left: 60px;
+   height: 20px;
+   border: 2px solid #424b41;	
+}
+.btn{
+	margin-left: 40px;
+}
