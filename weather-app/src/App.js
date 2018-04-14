@@ -13,7 +13,8 @@ class App extends React.Component{
     country:undefined,
     humidity:undefined,
     description:undefined,
-    error:undefined
+    error:undefined,
+    showButtons:false
 
   }
 
@@ -26,12 +27,14 @@ class App extends React.Component{
       if(city&&country)
       {
       this.setState({
-        temperature:data.main.temp,
+        temperature:(data.main.temp)-273.15,
         city:data.name,
         country:data.sys.country,
         humidity:data.main.humidity,
         description:data.weather[0].description,
-        error:""
+        error:"",
+        showButtons:true
+
       });
     }
     else
@@ -60,6 +63,7 @@ class App extends React.Component{
           humidity={this.state.humidity}
           description={this.state.description}
           error={this.state.error}
+          showButtons={this.state.showButtons}
         />
         </div>
       )

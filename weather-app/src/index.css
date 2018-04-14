@@ -46,3 +46,21 @@ body, html {
 .btn{
 	margin-left: 40px;
 }
+.Details{
+	margin-left: 35px;
+	margin-top: 25px;
+	color:white;
+}
+#btn1{
+	margin-left: 200px;
+	height: 30px;
+	width: 70px;
+	border: 2px solid #424b41;	
+}
+#btn2{
+	margin-left: 50px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #424b41;	
+}
+
